@@ -25,7 +25,7 @@ while starting_fuel-100*astronauts_aboard >= 0:
   altitude_of_shuttle += 50
   starting_fuel -= 100 * astronauts_aboard
     
-
+j
 
 # Exercise #2: Print the result with the phrase, The shuttle gained an altitude of ___ km and has ___ kg of fuel left. Fill in the blanks with the altitude and fuel level values.
 print('The shuttle gained an altitude of ' + str(altitude_of_shuttle) + "km and has " + str(starting_fuel) + 'kg of fuel left.' )
