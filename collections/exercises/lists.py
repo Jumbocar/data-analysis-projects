@@ -35,5 +35,5 @@ cargo_hold = ['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'me
 # print(cargo_hold)
 
 # Use .format() to print the final list and its length. "The list ___ contains ___ items."
-final_list = 'the list {0} contains {1} items'
-print(final_list.format(cargo_hold,len(cargo_hold)))
+# final_list = 'the list {0} contains {1} items'
+# print(final_list.format(cargo_hold,len(cargo_hold)))
