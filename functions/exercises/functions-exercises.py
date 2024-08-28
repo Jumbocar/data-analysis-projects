@@ -1,5 +1,5 @@
 # Part 1 A -- Make a Line
-
+print(line(5))
 
 
 # Part 1 B -- Make a Square
