@@ -38,27 +38,41 @@ def make_stairs(steps):
         stairs += '\n#'+ make_line(x)
     return stairs
 
-print(make_stairs(6))  
-
-
+# print(make_stairs(5))  
 
 
 # Part 2 B -- Make Space-Line 
-
-
-
+def make_space_line(numspaces, numchars):
+    space = ''
+    hash = ''
+    for x in range(numspaces):
+       space = numspaces * ' '
+    for y in range(numchars):
+       hash = numchars * '#'
+    return space + hash + space
+# print(make_space_line(2,3))
 
 
 # Part 2 C -- Make Isosceles Triangle
 
+def make_isosceles_triangle(height):
+    tri = ''
+    for x in range(height):
+       tri += make_space_line(height - x - 1, 2 * x + 1) + "\n"
+    return tri
 
-
-
+# print(make_isosceles_triangle(5))
 
 # Part 3 -- Make a Diamond
 
-
-
+def make_diamond(height):
+    diamond = ''
+    top_diamond = make_isosceles_triangle(height)
+    diamond += top_diamond[:-1]
+    for x in range(len(top_diamond)-1,-1,-1):
+       diamond += top_diamond[x]
+    return diamond
+print(make_diamond(4))
 
 
 
