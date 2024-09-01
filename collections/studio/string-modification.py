@@ -2,8 +2,9 @@ my_string = "LaunchCode"
 
 
 # a) Use string methods to remove the first three characters from the string and add them to the end.
-new_string = my_string[0::1]
-print(new_string)
+new_string = my_string[0:3] 
+
+
 
 # Use a template literal to print the original and modified string in a descriptive phrase.
 
