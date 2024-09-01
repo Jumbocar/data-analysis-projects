@@ -67,10 +67,10 @@ def make_isosceles_triangle(height):
 
 def make_diamond(height):
     diamond = ''
-    top_diamond = make_isosceles_triangle(height)
-    diamond += top_diamond[:-1]
-    for x in range(len(top_diamond)-1,-1,-1):
-       diamond += top_diamond[x]
+    bottom_diamond = make_isosceles_triangle(height)
+    diamond += bottom_diamond[:-1]
+    for x in range(len(bottom_diamond)-1,-1,-1):
+       diamond += bottom_diamond[x]
     return diamond
 print(make_diamond(4))
 
