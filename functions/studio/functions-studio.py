@@ -37,6 +37,8 @@ def reverse_characters(string):
     return reversed_string
 print(reverse_characters(list_test3))
 
-  
-      
+def reversed_list(list):
+    new_list = []
+    for x in list:
+        reverse_characters(list)
 
