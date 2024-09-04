@@ -24,9 +24,10 @@ def make_square(num):
 def make_rectangle(length,width):
     rec = ''
     for x in range(length):
-        rec += "\n#" + make_line(width) 
+        rec += "\n#" + make_line(width)  
     return rec
 
+print('test')
 
 # print(make_rectangle(5,3))
 
