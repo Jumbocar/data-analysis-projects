@@ -26,7 +26,7 @@ def make_rectangle(length,width):
     return rec
 
 print('test')
-
+'yes'
 # print(make_rectangle(5,3))
 
 
