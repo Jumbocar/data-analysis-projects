@@ -5,8 +5,7 @@ def make_line(num):
         line += '#'
     return line
 
-# print(make_line(5))
-
+# print(make_line(5)
 
 # Part 1 B -- Make a Square
 # create a function using your make_line function to code a square
